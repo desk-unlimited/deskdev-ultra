@@ -2,6 +2,8 @@ import React from "react";
 import { PrefetchPageLinks } from "react-router";
 import { motion } from "framer-motion";
 import { FaRocket, FaCode, FaLightbulb, FaMagic, FaTools } from "react-icons/fa";
+import { useTranslation } from "react-i18next";
+import { I18nKey } from "#/i18n/declaration";
 import { HomeHeader } from "#/components/features/home/home-header";
 import { RepoConnector } from "#/components/features/home/repo-connector";
 import { TaskSuggestions } from "#/components/features/home/tasks/task-suggestions";
