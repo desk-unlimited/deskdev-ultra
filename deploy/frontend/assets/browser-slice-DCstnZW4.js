@@ -1,0 +1,1 @@
+import{c as t}from"./redux-toolkit.modern-C17kwIqd.js";const c={url:"https://github.com/All-Hands-AI/OpenHands",screenshotSrc:""},r=t({name:"browser",initialState:c,reducers:{setUrl:(e,s)=>{e.url=s.payload},setScreenshotSrc:(e,s)=>{e.screenshotSrc=s.payload}}}),{setUrl:a,setScreenshotSrc:n}=r.actions,l=r.reducer;export{a,l as b,c as i,n as s};

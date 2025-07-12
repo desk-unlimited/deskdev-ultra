@@ -1,0 +1,1 @@
+import{u as s}from"./useQuery-C6Oy5OYj.js";import{O as o}from"./open-hands-B3E073cv.js";import{a as n}from"./chunk-NL6KNZEE-aMulfElY.js";const a=()=>{const{pathname:e}=n();return e==="/accept-tos"},i=()=>{const e=a();return s({queryKey:["config"],queryFn:o.getConfig,staleTime:1e3*60*5,gcTime:1e3*60*15,enabled:!e})};export{a,i as u};
