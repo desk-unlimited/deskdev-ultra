@@ -1,4 +1,83 @@
 {
+    "HOME$HERO_TITLE": {
+        "en": "Build Better Software with",
+        "ja": "より良いソフトウェアを構築",
+        "zh-CN": "构建更好的软件与",
+        "zh-TW": "構建更好的軟件與",
+        "ko-KR": "더 나은 소프트웨어 구축",
+        "no": "Bygg bedre programvare med",
+        "it": "Costruisci software migliore con",
+        "pt": "Construa software melhor com",
+        "es": "Construye mejor software con",
+        "ar": "بناء برمجيات أفضل مع",
+        "fr": "Construisez de meilleurs logiciels avec",
+        "tr": "Daha iyi yazılım oluşturun",
+        "de": "Bessere Software erstellen mit",
+        "uk": "Створюйте краще програмне забезпечення з"
+    },
+    "HOME$HERO_TITLE_HIGHLIGHT": {
+        "en": "AI"
+    },
+    "HOME$HERO_SUBTITLE": {
+        "en": "Your AI assistant for"
+    },
+    "HOME$HERO_WORD_CODING": {
+        "en": "coding"
+    },
+    "HOME$HERO_WORD_DEBUGGING": {
+        "en": "debugging"
+    },
+    "HOME$HERO_WORD_REFACTORING": {
+        "en": "refactoring"
+    },
+    "HOME$HERO_WORD_LEARNING": {
+        "en": "learning"
+    },
+    "HOME$HERO_WORD_BUILDING": {
+        "en": "building"
+    },
+    "HOME$HERO_DESCRIPTION": {
+        "en": "Experience the next generation of software development with our AI-powered assistant that helps you write better code, faster."
+    },
+    "HOME$START_CODING_BUTTON": {
+        "en": "Start Coding"
+    },
+    "HOME$LEARN_MORE_BUTTON": {
+        "en": "Learn More"
+    },
+    "HOME$FEATURES_TITLE": {
+        "en": "Supercharge Your Development Workflow"
+    },
+    "HOME$FEATURE_AI_TITLE": {
+        "en": "AI-Powered Development"
+    },
+    "HOME$FEATURE_AI_DESCRIPTION": {
+        "en": "Leverage advanced AI to accelerate your development workflow and solve complex problems."
+    },
+    "HOME$FEATURE_CODE_TITLE": {
+        "en": "Code Generation"
+    },
+    "HOME$FEATURE_CODE_DESCRIPTION": {
+        "en": "Generate high-quality code snippets and complete functions based on your requirements."
+    },
+    "HOME$FEATURE_SUGGESTIONS_TITLE": {
+        "en": "Smart Suggestions"
+    },
+    "HOME$FEATURE_SUGGESTIONS_DESCRIPTION": {
+        "en": "Get intelligent suggestions for your projects based on context and best practices."
+    },
+    "HOME$FEATURE_INTEGRATION_TITLE": {
+        "en": "Seamless Integration"
+    },
+    "HOME$FEATURE_INTEGRATION_DESCRIPTION": {
+        "en": "Works with your existing tools and workflows for a frictionless development experience."
+    },
+    "HOME$FEATURE_EXPERIENCE_TITLE": {
+        "en": "Magical Experience"
+    },
+    "HOME$FEATURE_EXPERIENCE_DESCRIPTION": {
+        "en": "Experience the magic of AI-assisted development that feels intuitive and powerful."
+    },
     "STATUS$WEBSOCKET_CLOSED": {
         "en": "The WebSocket connection was closed.",
         "ja": "WebSocket接続が閉じられました。",

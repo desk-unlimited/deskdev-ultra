@@ -26,6 +26,7 @@ import { useAutoLogin } from "#/hooks/use-auto-login";
 import { useAuthCallback } from "#/hooks/use-auth-callback";
 import { LOCAL_STORAGE_KEYS } from "#/utils/local-storage";
 import { EmailVerificationGuard } from "#/components/features/guards/email-verification-guard";
+import { AppDock } from "#/components/features/dock/app-dock";
 
 export function ErrorBoundary() {
   const error = useRouteError();
@@ -199,7 +200,8 @@ export default function MainApp() {
       data-testid="root-layout"
       className="bg-base p-3 h-screen md:min-w-[1024px] flex flex-col gap-0"
     >
-      <Header />
+      {/* Only show header on non-conversation pages */}
+      {!location.pathname.includes('/conversations/') && <Header />}
 
       <div
         id="root-outlet"
@@ -209,6 +211,9 @@ export default function MainApp() {
           <Outlet />
         </EmailVerificationGuard>
       </div>
+      
+      {/* Show dock on all pages */}
+      {isAuthed && <AppDock />}
 
       {renderAuthModal && (
         <AuthModal
