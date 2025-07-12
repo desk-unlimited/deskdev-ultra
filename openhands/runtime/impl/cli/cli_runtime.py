@@ -69,7 +69,7 @@ The .NET SDK and PowerShell are required for OpenHands CLI on Windows.
 PowerShell integration cannot function without .NET Core.
 
 Please install the .NET SDK by following the instructions at:
-https://docs.all-hands.dev/usage/windows-without-wsl
+https://deskdev.ai/usage/windows-without-wsl
 
 After installing .NET SDK, restart your terminal and try again.
 """

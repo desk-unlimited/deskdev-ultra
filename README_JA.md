@@ -24,7 +24,7 @@ OpenHands（旧OpenDevin）へようこそ。これはAIが駆動するソフト
 
 OpenHandsのエージェントは人間の開発者ができることは何でもこなします。コードを修正し、コマンドを実行し、ウェブを閲覧し、APIを呼び出し、StackOverflowからコードスニペットをコピーすることさえできます。
 
-詳細は[docs.all-hands.dev](https://docs.all-hands.dev)をご覧いただくか、[OpenHands Cloud](https://app.all-hands.dev)に登録して始めましょう。
+詳細は[deskdev.ai](https://deskdev.ai)をご覧いただくか、[OpenHands Cloud](https://app.all-hands.dev)に登録して始めましょう。
 
 > [!IMPORTANT]
 > 仕事でOpenHandsを使っていますか？ぜひお話を聞かせてください。[こちらの短いフォーム](https://docs.google.com/forms/d/e/1FAIpQLSet3VbGaz8z32gW9Wm-Grl4jpt5WgMXPgJ4EDPVmCETCBpJtQ/viewform)にご記入いただき、Design Partnerプログラムにご参加ください。商用機能の早期アクセスや製品ロードマップへのフィードバックの機会を提供します。
@@ -36,10 +36,10 @@ OpenHandsを始める最も簡単な方法は[OpenHands Cloud](https://app.all-h
 
 ## 💻 OpenHandsをローカルで実行する
 
-OpenHandsはDockerを利用してローカル環境でも実行できます。システム要件や詳細については[Running OpenHands](https://docs.all-hands.dev/usage/installation)ガイドをご覧ください。
+OpenHandsはDockerを利用してローカル環境でも実行できます。システム要件や詳細については[Running OpenHands](https://deskdev.ai/usage/installation)ガイドをご覧ください。
 
 > [!WARNING]
-> 公共ネットワークで実行していますか？[Hardened Docker Installation Guide](https://docs.all-hands.dev/usage/runtimes/docker#hardened-docker-installation)を参照して、ネットワークバインディングの制限や追加のセキュリティ対策を実施してください。
+> 公共ネットワークで実行していますか？[Hardened Docker Installation Guide](https://deskdev.ai/usage/runtimes/docker#hardened-docker-installation)を参照して、ネットワークバインディングの制限や追加のセキュリティ対策を実施してください。
 
 ```bash
 docker pull docker.all-hands.dev/all-hands-ai/runtime:0.47-nikolaik

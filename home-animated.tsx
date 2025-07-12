@@ -1,16 +1,12 @@
 import React from "react";
 import { PrefetchPageLinks } from "react-router";
-import { motion } from "framer-motion";
 import { HomeHeader } from "#/components/features/home/home-header";
 import { RepoConnector } from "#/components/features/home/repo-connector";
 import { TaskSuggestions } from "#/components/features/home/tasks/task-suggestions";
 import { useUserProviders } from "#/hooks/use-user-providers";
-import {
-  UseCasesSection,
-  AboutUsSection,
-  BusinessValueSection,
-} from "#/components/features/home/landing-sections";
+import { UseCasesSection, AboutUsSection, BusinessValueSection } from "#/components/features/home/landing-sections";
 import { FadeIn } from "#/components/ui/animations";
+import { motion } from "framer-motion";
 
 <PrefetchPageLinks page="/conversations/:conversationId" />;
 
@@ -59,7 +55,7 @@ function HomeScreen() {
           )}
         </main>
       </FadeIn>
-
+      
       <div className="mb-12">
         <UseCasesSection />
         <AboutUsSection />

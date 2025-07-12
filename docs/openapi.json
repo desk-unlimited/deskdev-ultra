@@ -1,7 +1,7 @@
 {
   "openapi": "3.0.3",
   "info": {
-    "title": "OpenHands API",
+    "title": "Deskdev.ai API",
     "description": "OpenHands: Code Less, Make More",
     "version": "1.0.0"
   },

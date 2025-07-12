@@ -1167,6 +1167,38 @@
         "de": "Optimieren Sie die Ressourcenzuweisung und reduzieren Sie die Entwicklungskosten mit intelligenter Automatisierung.",
         "uk": "Оптимізуйте розподіл ресурсів і зменшіть витрати на розробку за допомогою розумної автоматизації."
     },
+    "HOME$USE_CASES_DESC": {
+        "en": "Discover how DeskDev.ai transforms your development workflow with intelligent automation",
+        "ja": "DeskDev.aiがインテリジェントな自動化で開発ワークフローをどのように変革するかをご覧ください",
+        "zh-CN": "了解DeskDev.ai如何通过智能自动化改变您的开发工作流程",
+        "zh-TW": "了解DeskDev.ai如何通過智能自動化改變您的開發工作流程",
+        "ko-KR": "DeskDev.ai가 지능형 자동화로 개발 워크플로우를 어떻게 변화시키는지 알아보세요",
+        "no": "Oppdag hvordan DeskDev.ai transformerer din utviklingsarbeidsflyt med intelligent automatisering",
+        "it": "Scopri come DeskDev.ai trasforma il tuo flusso di lavoro di sviluppo con l'automazione intelligente",
+        "pt": "Descubra como o DeskDev.ai transforma seu fluxo de trabalho de desenvolvimento com automação inteligente",
+        "es": "Descubra cómo DeskDev.ai transforma su flujo de trabajo de desarrollo con automatización inteligente",
+        "ar": "اكتشف كيف يحول DeskDev.ai سير عمل التطوير الخاص بك باستخدام الأتمتة الذكية",
+        "fr": "Découvrez comment DeskDev.ai transforme votre flux de travail de développement avec l'automatisation intelligente",
+        "tr": "DeskDev.ai'nin akıllı otomasyon ile geliştirme iş akışınızı nasıl dönüştürdüğünü keşfedin",
+        "de": "Entdecken Sie, wie DeskDev.ai Ihren Entwicklungsworkflow mit intelligenter Automatisierung transformiert",
+        "uk": "Дізнайтеся, як DeskDev.ai трансформує ваш робочий процес розробки за допомогою розумної автоматизації"
+    },
+    "HOME$BUSINESS_VALUE_DESC": {
+        "en": "Measurable impact on your business growth and development efficiency",
+        "ja": "ビジネス成長と開発効率に対する測定可能な影響",
+        "zh-CN": "对您的业务增长和开发效率产生可衡量的影响",
+        "zh-TW": "對您的業務增長和開發效率產生可衡量的影響",
+        "ko-KR": "비즈니스 성장과 개발 효율성에 대한 측정 가능한 영향",
+        "no": "Målbar påvirkning på din forretningsvekst og utviklingseffektivitet",
+        "it": "Impatto misurabile sulla crescita del tuo business e sull'efficienza di sviluppo",
+        "pt": "Impacto mensurável no crescimento do seu negócio e na eficiência de desenvolvimento",
+        "es": "Impacto medible en el crecimiento de su negocio y la eficiencia de desarrollo",
+        "ar": "تأثير قابل للقياس على نمو أعمالك وكفاءة التطوير",
+        "fr": "Impact mesurable sur la croissance de votre entreprise et l'efficacité de développement",
+        "tr": "İş büyümeniz ve geliştirme verimliliğiniz üzerinde ölçülebilir etki",
+        "de": "Messbarer Einfluss auf Ihr Unternehmenswachstum und Ihre Entwicklungseffizienz",
+        "uk": "Вимірюваний вплив на зростання вашого бізнесу та ефективність розробки"
+    },
     "HOME$NOT_SURE_HOW_TO_START": {
         "en": "Not sure how to start?",
         "ja": "始め方がわからない？",

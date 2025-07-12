@@ -1,10 +1,10 @@
 import { useTranslation } from "react-i18next";
-import { motion } from "framer-motion";
 import { useCreateConversation } from "#/hooks/mutation/use-create-conversation";
 import { useIsCreatingConversation } from "#/hooks/use-is-creating-conversation";
 import { BrandButton } from "../settings/brand-button";
 import { DeskDevLogoFull } from "#/assets/branding/deskdev-logo";
 import { SplitText, FadeIn } from "#/components/ui/animations";
+import { motion } from "framer-motion";
 
 export function HomeHeader() {
   const {
@@ -26,12 +26,12 @@ export function HomeHeader() {
         <motion.div
           initial={{ scale: 0.8, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
-          transition={{
-            duration: 0.8,
+          transition={{ 
+            duration: 0.8, 
             delay: 0.3,
             type: "spring",
             stiffness: 100,
-            damping: 15,
+            damping: 15
           }}
         >
           <DeskDevLogoFull width={200} height={50} className="text-2xl" />
@@ -39,8 +39,8 @@ export function HomeHeader() {
       </FadeIn>
 
       <div className="flex items-center justify-between">
-        <SplitText
-          text={t("HOME$LETS_START_BUILDING")}
+        <SplitText 
+          text={t("HOME$LETS_START_BUILDING")} 
           className="heading"
           delay={0.6}
           staggerDelay={0.08}
@@ -61,10 +61,14 @@ export function HomeHeader() {
 
       <div className="flex items-center justify-between">
         <FadeIn delay={1.4} className="text-sm max-w-[424px]">
-          <p>{t("HOME$OPENHANDS_DESCRIPTION")}</p>
+          <p>
+            {t("HOME$OPENHANDS_DESCRIPTION")}
+          </p>
         </FadeIn>
         <FadeIn delay={1.6} direction="left" className="text-sm">
-          <p>{t("HOME$NOT_SURE_HOW_TO_START")}</p>
+          <p>
+            {t("HOME$NOT_SURE_HOW_TO_START")}
+          </p>
         </FadeIn>
       </div>
     </header>

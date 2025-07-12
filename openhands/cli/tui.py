@@ -380,9 +380,7 @@ def display_help() -> None:
 
     # Footer
     print_formatted_text(
-        HTML(
-            '<grey>Learn more at: https://docs.all-hands.dev/usage/getting-started</grey>'
-        )
+        HTML('<grey>Learn more at: https://deskdev.ai/usage/getting-started</grey>')
     )
 
 

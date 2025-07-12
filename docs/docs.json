@@ -28,7 +28,7 @@
           "usage/key-features",
           "usage/faqs",
           {
-            "group": "OpenHands Cloud",
+            "group": "Deskdev.ai Cloud",
             "pages": [
               "usage/cloud/openhands-cloud",
               {
@@ -44,7 +44,7 @@
             ]
           },
           {
-            "group": "Run OpenHands on Your Own",
+            "group": "Run Deskdev.ai on Your Own",
             "pages": [
               "usage/local-setup",
               "usage/how-to/gui-mode",
@@ -134,7 +134,7 @@
             ]
           },
           {
-            "group": "OpenHands Developers",
+            "group": "Deskdev.ai Developers",
             "pages": [
               "usage/how-to/development-overview",
               {
@@ -175,7 +175,7 @@
           "icon": "newspaper"
         },
         {
-          "anchor": "OpenHands Cloud",
+          "anchor": "Deskdev.ai Cloud",
           "href": "https://app.all-hands.dev",
           "icon": "cloud"
         }

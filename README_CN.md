@@ -26,7 +26,7 @@
 
 OpenHands代理可以完成人类开发者能做的任何事情：修改代码、运行命令、浏览网页、调用API，甚至从StackOverflow复制代码片段。
 
-在[docs.all-hands.dev](https://docs.all-hands.dev)了解更多信息，或[注册OpenHands Cloud](https://app.all-hands.dev)开始使用。
+在[deskdev.ai](https://deskdev.ai)了解更多信息，或[注册OpenHands Cloud](https://app.all-hands.dev)开始使用。
 
 > [!IMPORTANT]
 > 在工作中使用OpenHands？我们很想与您交流！填写
@@ -42,11 +42,11 @@ OpenHands代理可以完成人类开发者能做的任何事情：修改代码�
 ## 💻 在本地运行OpenHands
 
 OpenHands也可以使用Docker在本地系统上运行。
-查看[运行OpenHands](https://docs.all-hands.dev/usage/installation)指南了解
+查看[运行OpenHands](https://deskdev.ai/usage/installation)指南了解
 系统要求和更多信息。
 
 > [!WARNING]
-> 在公共网络上？请参阅我们的[强化Docker安装指南](https://docs.all-hands.dev/usage/runtimes/docker#hardened-docker-installation)
+> 在公共网络上？请参阅我们的[强化Docker安装指南](https://deskdev.ai/usage/runtimes/docker#hardened-docker-installation)
 > 通过限制网络绑定和实施其他安全措施来保护您的部署。
 
 
@@ -70,7 +70,7 @@ docker run -it --rm --pull=always \
 
 打开应用程序时，您将被要求选择一个LLM提供商并添加API密钥。
 [Anthropic的Claude Sonnet 4](https://www.anthropic.com/api)（`anthropic/claude-sonnet-4-20250514`）
-效果最佳，但您还有[许多选择](https://docs.all-hands.dev/usage/llms)。
+效果最佳，但您还有[许多选择](https://deskdev.ai/usage/llms)。
 
 ## 💡 运行OpenHands的其他方式
 
@@ -82,22 +82,22 @@ docker run -it --rm --pull=always \
 > [与我们联系](https://docs.google.com/forms/d/e/1FAIpQLSet3VbGaz8z32gW9Wm-Grl4jpt5WgMXPgJ4EDPVmCETCBpJtQ/viewform)
 > 了解高级部署选项。
 
-您还可以[将OpenHands连接到本地文件系统](https://docs.all-hands.dev/usage/runtimes/docker#connecting-to-your-filesystem)，
-以可编程的[无头模式](https://docs.all-hands.dev/usage/how-to/headless-mode)运行OpenHands，
-通过[友好的CLI](https://docs.all-hands.dev/usage/how-to/cli-mode)与其交互，
-或使用[GitHub Action](https://docs.all-hands.dev/usage/how-to/github-action)在标记的问题上运行它。
+您还可以[将OpenHands连接到本地文件系统](https://deskdev.ai/usage/runtimes/docker#connecting-to-your-filesystem)，
+以可编程的[无头模式](https://deskdev.ai/usage/how-to/headless-mode)运行OpenHands，
+通过[友好的CLI](https://deskdev.ai/usage/how-to/cli-mode)与其交互，
+或使用[GitHub Action](https://deskdev.ai/usage/how-to/github-action)在标记的问题上运行它。
 
-访问[运行OpenHands](https://docs.all-hands.dev/usage/installation)获取更多信息和设置说明。
+访问[运行OpenHands](https://deskdev.ai/usage/installation)获取更多信息和设置说明。
 
 如果您想修改OpenHands源代码，请查看[Development.md](https://github.com/All-Hands-AI/OpenHands/blob/main/Development.md)。
 
-遇到问题？[故障排除指南](https://docs.all-hands.dev/usage/troubleshooting)可以提供帮助。
+遇到问题？[故障排除指南](https://deskdev.ai/usage/troubleshooting)可以提供帮助。
 
 ## 📖 文档
   <a href="https://deepwiki.com/All-Hands-AI/OpenHands"><img src="https://deepwiki.com/badge.svg" alt="Ask DeepWiki" title="DeepWiki自动生成文档"></a>
 
 要了解有关项目的更多信息，以及使用OpenHands的技巧，
-请查看我们的[文档](https://docs.all-hands.dev/usage/getting-started)。
+请查看我们的[文档](https://deskdev.ai/usage/getting-started)。
 
 在那里，您将找到有关如何使用不同LLM提供商、
 故障排除资源和高级配置选项的资源。
