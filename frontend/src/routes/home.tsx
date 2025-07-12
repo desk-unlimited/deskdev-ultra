@@ -4,6 +4,7 @@ import { HomeHeader } from "#/components/features/home/home-header";
 import { RepoConnector } from "#/components/features/home/repo-connector";
 import { TaskSuggestions } from "#/components/features/home/tasks/task-suggestions";
 import { useUserProviders } from "#/hooks/use-user-providers";
+import { UseCasesSection, AboutUsSection, BusinessValueSection } from "#/components/features/home/landing-sections";
 
 <PrefetchPageLinks page="/conversations/:conversationId" />;
 
@@ -24,13 +25,19 @@ function HomeScreen() {
 
       <hr className="border-[#717888]" />
 
-      <main className="flex flex-col md:flex-row justify-between gap-8">
+      <main className="flex flex-col md:flex-row justify-between gap-8 mb-8">
         <RepoConnector
           onRepoSelection={(title) => setSelectedRepoTitle(title)}
         />
         <hr className="md:hidden border-[#717888]" />
         {providersAreSet && <TaskSuggestions filterFor={selectedRepoTitle} />}
       </main>
+      
+      <div className="mb-12">
+        <UseCasesSection />
+        <AboutUsSection />
+        <BusinessValueSection />
+      </div>
     </div>
   );
 }

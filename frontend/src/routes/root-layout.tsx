@@ -12,7 +12,7 @@ import i18n from "#/i18n";
 import { useGitHubAuthUrl } from "#/hooks/use-github-auth-url";
 import { useIsAuthed } from "#/hooks/query/use-is-authed";
 import { useConfig } from "#/hooks/query/use-config";
-import { Sidebar } from "#/components/features/sidebar/sidebar";
+import { Header } from "#/components/features/header/header";
 import { AuthModal } from "#/components/features/waitlist/auth-modal";
 import { ReauthModal } from "#/components/features/waitlist/reauth-modal";
 import { AnalyticsConsentFormModal } from "#/components/features/analytics/analytics-consent-form-modal";
@@ -197,13 +197,13 @@ export default function MainApp() {
   return (
     <div
       data-testid="root-layout"
-      className="bg-base p-3 h-screen md:min-w-[1024px] flex flex-col md:flex-row gap-3"
+      className="bg-base p-3 h-screen md:min-w-[1024px] flex flex-col gap-0"
     >
-      <Sidebar />
+      <Header />
 
       <div
         id="root-outlet"
-        className="h-[calc(100%-50px)] md:h-full w-full relative overflow-auto"
+        className="h-[calc(100%-70px)] w-full relative overflow-auto"
       >
         <EmailVerificationGuard>
           <Outlet />

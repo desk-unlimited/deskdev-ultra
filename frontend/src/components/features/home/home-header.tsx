@@ -2,7 +2,7 @@ import { useTranslation } from "react-i18next";
 import { useCreateConversation } from "#/hooks/mutation/use-create-conversation";
 import { useIsCreatingConversation } from "#/hooks/use-is-creating-conversation";
 import { BrandButton } from "../settings/brand-button";
-import AllHandsLogo from "#/assets/branding/all-hands-logo-spark.svg?react";
+import { DeskDevLogoFull } from "#/assets/branding/deskdev-logo";
 
 export function HomeHeader() {
   const {
@@ -20,7 +20,9 @@ export function HomeHeader() {
 
   return (
     <header className="flex flex-col gap-5">
-      <AllHandsLogo />
+      <div className="flex justify-center items-center py-2">
+        <DeskDevLogoFull width={200} height={50} className="text-2xl" />
+      </div>
 
       <div className="flex items-center justify-between">
         <h1 className="heading">{t("HOME$LETS_START_BUILDING")}</h1>
@@ -41,15 +43,7 @@ export function HomeHeader() {
           {t("HOME$OPENHANDS_DESCRIPTION")}
         </p>
         <p className="text-sm">
-          {t("HOME$NOT_SURE_HOW_TO_START")}{" "}
-          <a
-            href="https://docs.all-hands.dev/usage/getting-started"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="underline underline-offset-2"
-          >
-            {t("HOME$READ_THIS")}
-          </a>
+          {t("HOME$NOT_SURE_HOW_TO_START")}
         </p>
       </div>
     </header>
